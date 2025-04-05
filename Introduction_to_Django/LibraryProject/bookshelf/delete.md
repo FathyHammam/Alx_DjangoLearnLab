@@ -1,4 +1,5 @@
 book.delete()
+from bookshelf.models import Book
 
 # Check if the book exists
 books = Book.objects.all()
